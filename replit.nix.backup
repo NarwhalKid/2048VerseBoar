@@ -1,0 +1,7 @@
+{ pkgs }: {
+    deps = [
+        pkgs.libpng12
+        pkgs.zlib
+    ];
+    librarySystemDepends = [ pkgs.zlib ];
+}
